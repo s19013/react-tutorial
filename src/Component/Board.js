@@ -10,6 +10,30 @@ export default class Board extends React.Component {
     };
   }
 
+  history = [
+    {
+      squares: [
+        null, null, null,
+        null, null, null,
+        null, null, null,
+      ]
+    },
+    {
+      squares: [
+        null, null, null,
+        null, null, null,
+        null, null, null,
+      ]
+    },
+    {
+      squares: [
+        null, null, null,
+        null, null, null,
+        null, null, null,
+      ]
+    },
+  ]
+
   handleClick(i){
     // 巻き戻しとかのため､古いのをコピーして保存する?
     const squares = this.state.squares.slice();
