@@ -71,3 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### 
 jsconfig.jsonでパスを設定できないのかなり困る
+親から渡された関数は親の元に帰るってこと?
