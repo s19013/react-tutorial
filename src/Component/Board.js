@@ -16,11 +16,11 @@ export default class Board extends React.Component {
     if (this.calculateWinner(squares) || squares[i]) {
       return;
     }
-    squares[i] = this.state.xIsNext ?'X':'O';
+    squares[i] = this.state.xIsNext ? 'X' : 'O';
     // ステート書き換え
     this.setState({
       squares:squares,
-      xisNext:!this.state.xIsNext,
+      xIsNext:!this.state.xIsNext,
     })
   }
 
